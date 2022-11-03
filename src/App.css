@@ -1,3 +1,18 @@
+:root {
+  --nightSky: #020128;
+  --nightFooter: #020118;
+  --daySky: #fff;
+  --dayFooter: #15135b;
+  --yellow: #fede00;
+  --orange: #ffb800;
+  --turquoise: #2ec4b6;
+  --black: #000;
+  --gold: #e7c48b;
+  --logoMultiply: #0d0c44;
+  --textDark: #15135b;
+  --textLight: #fff;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +50,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  max-width: 1200px;
 }
