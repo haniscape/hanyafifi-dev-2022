@@ -1,5 +1,5 @@
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -39,18 +39,30 @@
   width: fit-content;
   text-align: center;
   cursor: pointer;
-  background: linear-gradient(0deg, #FEDE00, #FEDE00) no-repeat right bottom /
-    0 var(--bg-h);
-  transition: background-size 350ms;
-  --bg-h: 100%;
   padding-bottom: 10px;
-  --bg-h: 3px;
+  display: inline-block;
+  position: relative;
 }
 
-.nav-links ul li:where(:hover, :focus-visible) {
-    background-size: 100% var(--bg-h);
-    background-position-x: left;
-  }
+.nav-links ul li::after {
+  content: "";
+  background-image: url("../../img/link-hover.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 80%;
+  padding: 5px;
+  height: 1rem;
+  transform: scaleX(0);
+  bottom: -1rem;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-links ul li:where(:hover, :focus-visible)::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
 .nav-buttons {
   flex: 1;
@@ -60,7 +72,7 @@
 }
 
 .nav-buttons .btn-cv {
-  background-color: #ac96cf;
+  background-color: #2ec4b6;
   color: #1a0e43;
   border: none;
   height: 2rem;

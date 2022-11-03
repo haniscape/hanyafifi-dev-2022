@@ -4,8 +4,8 @@ import "./Navbar.css";
 
 const navbar = () => {
   return (
-      <div className="container">
-    <div className="navbar-wrapper">
+    <div className="container">
+      <div className="navbar-wrapper">
         <div className="nav-branding">
           <img src={logoDark} alt="hanyafifi.dev dark theme logo" />
         </div>
