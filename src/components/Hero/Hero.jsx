@@ -1,5 +1,4 @@
-import React, { useRef, useEffect } from 'react';
-import { tweenMax, Power3 } from 'gsap';
+import React from 'react';
 
 import './Hero.css';
 import underlineA from "../../img/underline-a.svg";
@@ -8,9 +7,6 @@ import hero from "../../img/hero.svg";
 import iconReact from "../../img/icon-react.svg";
 import iconFigma from "../../img/icon-figma.svg";
 import iconCss from "../../img/icon-css.svg";
-/* import iconReactTxt from "../../img/icon-react-txt.svg";
-import iconFigmaTxt from "../../img/icon-figma-txt.svg";
-import iconCssTxt from "../../img/icon-css-txt.svg"; */
 
 
 
