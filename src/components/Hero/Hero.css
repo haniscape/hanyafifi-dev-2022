@@ -11,45 +11,46 @@
   width: 60%;
   justify-content: center;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 1.5rem;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
 .hero-text h1 {
-  font-size: 2.2rem;
+  font-size: calc(2rem + 1.5vw);
   font-weight: 700;
   margin: 0;
 }
 
 .hero-text p {
-  font-size: 1rem;
+  font-size: calc(1rem + 1.5vw);
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 4rem;
 }
 
 .hero-text p span {
-  font-size: 1rem;
+  font-size: calc(1rem + 1.5vw);
   font-weight: 700;
   color: #fede00;
   margin: 0 0.25em;
 }
 
 .hero-text span {
-  font-size: 2.2rem;
+  font-size: calc(2rem + 1.5vw);
   font-weight: 700;
   line-height: 1.05;
 }
 
 .hero-text span.underline-a,
 .hero-text span.underline-b {
-  background-position: left 2rem;
+  background-position: left 2.25rem;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 3rem;
   display: inline-flex;
+  min-width: max-content;
   width: fit-content;
 }
 
@@ -63,7 +64,7 @@
 }
 
 .hero .canvas .hero-pic {
-  width: 13rem;
+  width: calc(8rem + 10vw);
 }
 
 .hero .canvas .stack-icons {
@@ -84,23 +85,46 @@
 
 .hero .canvas .stack-icons .icon.react {
   margin-left: 3.5rem;
-  width: 4.25rem;
-  height: 4.25rem;
+  width: calc(1rem + 7vw);
+  height: calc(1rem + 7vw);
 }
 
 .hero .canvas .stack-icons .icon.figma {
   margin-left: 0.5rem;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: calc(1.3rem + 7vw);
+  height: calc(1.3rem + 7vw);
 }
 
 .hero .canvas .stack-icons .icon.css {
   margin-left: 3.5rem;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: calc(1.15rem + 7vw);
+  height: calc(1.15rem + 7vw);
 }
 
 .under-construction {
   width: 100%;
   margin: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-wrapper {
+    padding: 1rem;
+  }
+
+  .navbar-wrapper {
+    height: max-content;
+  }
+
+  .nav-branding {
+    padding: 1rem;
+  }
+
+  .nav-links ul {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .nav-buttons {
+    display: none;
+  }
 }
