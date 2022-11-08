@@ -5,7 +5,7 @@ import "./Navbar.css";
 const navbar = () => {
 
   const onClick = () => {
-    window.location.href = "./download/hanyafifi-cv-en.pdf";
+    window.location.href = "./assets/downloads/hanyafifi-cv-en.pdf";
   };
 
   return (
