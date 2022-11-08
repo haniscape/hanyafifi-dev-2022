@@ -3,6 +3,11 @@ import logoDark from "../../img/logo-dark.svg";
 import "./Navbar.css";
 
 const navbar = () => {
+
+  const onClick = () => {
+    window.location.href = "./download/hanyafifi-cv-en.pdf";
+  };
+
   return (
     <div className="container">
       <div className="navbar-wrapper">
@@ -19,7 +24,7 @@ const navbar = () => {
           </ul>
         </div>
         <div className="nav-buttons">
-          <button className="btn-cv">Download CV</button>
+          <button onClick={onClick} className="btn-cv">Download CV</button>
           <span className="btn-dark-light">Toggle</span>
         </div>
       </div>
