@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   align-items: center;
   min-height: 30rem;
+  padding: 1rem;
 }
 
 .hero-text {
