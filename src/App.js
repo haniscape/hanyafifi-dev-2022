@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "./components/Navbar/Navbar"
 import Hero from "./components/Hero/Hero"
 
-import uCon from "./img/under-construction.png";
+import uCon from "./img/under-construction.jpg";
 
 
 function App() {
