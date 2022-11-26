@@ -106,26 +106,3 @@
   width: 100%;
   margin: auto;
 }
-
-@media only screen and (max-width: 687px) {
-  .navbar-wrapper {
-    padding: 1rem;
-  }
-
-  .navbar-wrapper {
-    height: max-content;
-  }
-
-  .nav-branding {
-    padding: 1rem;
-  }
-
-  .nav-links ul {
-    align-items: flex-end;
-    flex-direction: column;
-  }
-
-  .nav-buttons {
-    display: none;
-  }
-}

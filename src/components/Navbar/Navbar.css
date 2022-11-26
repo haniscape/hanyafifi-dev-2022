@@ -43,6 +43,9 @@
   padding-bottom: 10px;
   display: inline-block;
   position: relative;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .nav-links ul li::after {
@@ -81,8 +84,45 @@
   border-radius: 3px;
   margin: 0 1rem;
   cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.65rem;
 }
 
 .nav-buttons .btn-dark-light {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 825px) {
+  .navbar-wrapper {
+    padding: 1rem;
+  }
+
+  .navbar-wrapper {
+    height: max-content;
+  }
+
+  .nav-branding {
+    padding: 1rem;
+  }
+
+  .nav-branding img {
+    width: calc(3rem + 10vw);
+    margin: 1rem;
+  }
+
+  .nav-links ul {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .nav-links ul li {
+    margin: 0.25rem;
+    font-size: 0.8rem;
+  }
+
+  .nav-buttons {
+    display: none;
+  }
 }
