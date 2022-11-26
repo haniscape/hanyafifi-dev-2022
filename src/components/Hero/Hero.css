@@ -1,6 +1,6 @@
 .hero {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: calc(100vh - 80px);
 }
@@ -44,9 +44,9 @@
 
 .hero-text span.underline-a,
 .hero-text span.underline-b {
-  background-position: left calc(1rem + 2vw);
+  background-position: left calc(1rem + 1.5vw);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 40%;
   height: calc(1rem + 4vw);
   display: inline-flex;
   min-width: max-content;
