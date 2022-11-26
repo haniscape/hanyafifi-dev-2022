@@ -32,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 0.75rem;
 }
 
 .nav-links ul li {
@@ -44,7 +45,7 @@
   display: inline-block;
   position: relative;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
 }
 
