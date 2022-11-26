@@ -16,7 +16,7 @@ const navbar = () => {
         </div>
         <div className="nav-links">
           <ul>
-            <li>Home</li>
+            <li className="current">Home</li>
             <li>Portfolio</li>
             <li>Testimonials</li>
             <li>Blog</li>

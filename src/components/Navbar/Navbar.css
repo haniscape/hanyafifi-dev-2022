@@ -60,7 +60,7 @@
   transition: transform 0.25s ease-out;
 }
 
-.nav-links ul li:where(:hover, :focus-visible)::after {
+.nav-links ul li:where(.current, :hover, :focus-visible)::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
