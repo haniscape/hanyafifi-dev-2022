@@ -18,8 +18,8 @@ const navbar = () => {
           <ul>
             <li className="current">Home</li>
             <li>Portfolio</li>
+            <li>ًWork</li>
             <li>Testimonials</li>
-            <li>Blog</li>
             <li>Contact</li>
           </ul>
         </div>
