@@ -48,7 +48,7 @@
   background-position: left calc(1rem + 2vw);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: calc(2.3rem + 4vw);
+  height: calc(1rem + 4vw);
   display: inline-flex;
   min-width: max-content;
   width: fit-content;
@@ -136,11 +136,6 @@
 
   .hero-text span {
     font-size: calc(1rem + 1.5vw);
-  }
-
-  .hero-text span.underline-a,
-  .hero-text span.underline-b {
-    height: calc(1rem + 4vw);
   }
 
   .hero .canvas .stack-icons {

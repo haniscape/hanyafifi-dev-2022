@@ -95,7 +95,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 850px) {
   .navbar-wrapper {
     padding: 1rem;
   }
@@ -104,13 +104,9 @@
     height: max-content;
   }
 
-  .nav-branding {
-    padding: 1rem;
-  }
-
   .nav-branding img {
-    width: calc(3rem + 10vw);
-    margin: 1rem;
+    width: calc(1rem + 10vw);
+    margin-left: 1rem;
   }
 
   .nav-links ul {
@@ -125,5 +121,11 @@
 
   .nav-buttons {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .nav-branding img {
+    width: calc(1.75rem + 10vw);
   }
 }
