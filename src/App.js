@@ -2,8 +2,7 @@ import React from 'react';
 import Navbar from "./components/Navbar/Navbar"
 import Hero from "./components/Hero/Hero"
 import Portfolio from "./components/Portfolio/Portfolio"
-
-import uCon from "./img/under-construction.jpg";
+import Work from "./components/Work/Work"
 
 
 function App() {
@@ -12,9 +11,7 @@ function App() {
    <Navbar />
    <Hero />
    <Portfolio />
-   <img src={uCon} className="under-construction" alt="under construction" />
-
-
+   <Work />
 
     </div>
   );
