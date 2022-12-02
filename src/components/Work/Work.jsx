@@ -11,7 +11,7 @@ const Work = () => {
         <div className="container">
             <div className='work'>
                 <div className="title">
-                    <h1>Portfolio</h1>
+                    <h2>Work</h2>
                 </div>
 
                 <div className="arrows">

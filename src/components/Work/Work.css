@@ -1,4 +1,4 @@
-.portfolio {
+.work {
   width: 100%;
   min-height: calc(100vh - 3rem);
   padding: 3rem 0;
@@ -8,7 +8,7 @@
   flex-direction: column;
 }
 
-.portfolio .title {
+.work .title {
   height: 4rem;
   width: 100%;
   display: flex;
@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.portfolio .title h1 {
+.work .title h2 {
   font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -25,70 +25,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.portfolio .cards-wrapper {
-  margin: 2rem auto;
-  width: 85%;
-  padding: 2rem;
-}
-
-.portfolio .cards-wrapper .card {
-  border: 5px solid #fff;
-  border-radius: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  height: fit-content;
-}
-
-.portfolio .cards-wrapper .card .pic {
-  height: 100%;
-  width: 67%;
-  display: flex;
-}
-
-.portfolio .cards-wrapper .card .pic img {
-  height: 100%;
-  width: 100%;
-}
-
-.portfolio .cards-wrapper .card .text {
-  min-height: 200px;
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.portfolio .cards-wrapper .card .text h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #fede00;
-}
-
-.portfolio .cards-wrapper .card .text h4 {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #fede00;
-  height: 2rem;
-}
-
-.portfolio .cards-wrapper .card .text .icons {
-  height: 2.2rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  color: #fede00;
-}
-
-.portfolio .cards-wrapper .card .text .icons img {
-  width: 2.25rem;
-  height: 1.75rem;
-  margin-right: 1rem;
-}
-
-.portfolio .cards-wrapper .arrows {
+.work .arrows {
   width: 100%;
   height: 3rem;
   display: flex;
@@ -96,22 +33,8 @@
   align-content: center;
 }
 
-.portfolio .cards-wrapper .arrows .arrow {
+.work .arrows .arrow {
   width: 2.25rem;
   height: 2.25rem;
-  margin: 2.5rem;
-}
-
-@media only screen and (max-width: 700px) {
-  .portfolio .cards-wrapper .card {
-    flex-direction: column;
-  }
-  .portfolio .cards-wrapper .card .pic {
-    width: 100%;
-  }
-  .portfolio .cards-wrapper .card .text {
-    max-width: 100%;
-    padding: 1rem 2rem;
-    width: 80%;
-  }
+  margin: 3rem 0.5rem;
 }

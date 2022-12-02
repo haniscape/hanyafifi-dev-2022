@@ -15,7 +15,7 @@ const Portfolio = () => {
         <div className="container">
             <div className='portfolio'>
                 <div className="title">
-                    <h1>Portfolio</h1>
+                    <h2>Portfolio</h2>
                 </div>
                 <div className="cards-wrapper">
                     <div className="card">
@@ -23,7 +23,7 @@ const Portfolio = () => {
                             <img src={portfolioPic01} alt="Project Al Khat Alaraby" />
                         </div>
                         <div className="text">
-                            <h2>Mobile App UX Research and Design</h2>
+                            <h3>Mobile App UX Research and Design</h3>
                             <h4>Al Khat Alaraby</h4>
 
                             <div className="icons">

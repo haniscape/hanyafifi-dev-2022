@@ -145,6 +145,9 @@
 }
 
 @media only screen and (max-width: 550px) {
+  .navbar-wrapper {
+    margin-bottom: 1.5rem;
+  }
   .nav-branding img {
     width: calc(1.75rem + 10vw);
   }

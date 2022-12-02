@@ -115,16 +115,16 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .hero .canvas .hero-pic {
-    width: calc(5rem + 10vw);
-  }
   .hero {
-    align-items: flex-start;
-    margin-top: 2rem;
+    margin-top: 0;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
   }
 
   .hero-text {
-    padding-right: 1rem;
+    margin: 2rem;
+    max-width: 80%;
+    width: 80%;
   }
 
   .hero-text h1 {
@@ -134,9 +134,29 @@
   .hero-text span {
     font-size: calc(1rem + 1.5vw);
   }
+  .hero-text p {
+    margin-bottom: 1rem;
+  }
+
+  .hero .canvas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    height: 100%;
+    margin: 0;
+    max-width: 90%;
+    width: 90%;
+  }
+  .hero .canvas .hero-pic {
+    width: calc(5rem + 5vw);
+  }
 
   .hero .canvas .stack-icons {
-    width: 2rem;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
   }
 
   .hero .canvas .stack-icons .icon.react {
