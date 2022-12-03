@@ -17,22 +17,22 @@
 }
 
 .portfolio .title h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 3.75rem;
+  font-weight: 100;
   text-transform: uppercase;
-  background: linear-gradient(to left, #ffde01 0%, #ffffff 100%);
+  color: #2ec4b6;
+  background: linear-gradient(to left, #2ec4b6 0%, #ffde01 81%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
 .portfolio .cards-wrapper {
-  margin: 2rem auto;
-  width: 80%;
+  padding: 2rem;
+  width: 100%;
 }
 
 .portfolio .cards-wrapper .card {
-  border: 5px solid #fff;
-  border-radius: 0.5rem;
   display: flex;
   justify-content: space-between;
   height: fit-content;
@@ -62,14 +62,16 @@
 .portfolio .cards-wrapper .card .text h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #fede00;
+  color: #ffde01;
+  margin: 0;
 }
 
 .portfolio .cards-wrapper .card .text h4 {
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 100;
   color: #fede00;
   height: 2rem;
+  line-height: 1.5;
 }
 
 .portfolio .cards-wrapper .card .text .icons {
@@ -85,6 +87,7 @@
   width: 2.25rem;
   height: 1.75rem;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .portfolio .cards-wrapper .arrows {
@@ -96,9 +99,9 @@
 }
 
 .portfolio .cards-wrapper .arrows .arrow {
-  width: 2.25rem;
-  height: 2.25rem;
-  margin: 3rem 0.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: 1.5rem 0.5rem 3rem;
 }
 
 @media only screen and (max-width: 700px) {
@@ -110,7 +113,7 @@
   }
   .portfolio .cards-wrapper .card .text {
     max-width: 100%;
-    padding: 1rem 2rem;
-    width: 75%;
+    padding: 1rem;
+    min-width: 80%;
   }
 }

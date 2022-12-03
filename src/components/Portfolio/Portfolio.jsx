@@ -12,36 +12,36 @@ import arrowRight from "../../img/arrow-right.svg";
 
 const Portfolio = () => {
     return (
-        <div className="container">
-            <div className='portfolio'>
-                <div className="title">
-                    <h2>Portfolio</h2>
-                </div>
-                <div className="cards-wrapper">
-                    <div className="card">
-                        <div className="pic">
-                            <img src={portfolioPic01} alt="Project Al Khat Alaraby" />
-                        </div>
-                        <div className="text">
-                            <h3>Mobile App UX Research and Design</h3>
-                            <h4>Al Khat Alaraby</h4>
 
-                            <div className="icons">
-                                <img src={iconGithub} alt="Project Al Khat Alaraby GitHub" />
-                                <img src={iconBehance} alt="Project Al Khat Alaraby Behance" />
-                                <img src={iconMero} alt="Project Al Khat Alaraby Mero" />
-                                <img src={iconLink} alt="Project Al Khat Alaraby link" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="arrows">
-                        <img src={arrowLeft} className="arrow arrow-left" alt="arrow left scroll" />
-                        <img src={arrowRight} className="arrow arrow-right" alt="arrow right scroll" />
-                    </div>
-                </div>
-
+        <div className='portfolio'>
+            <div className="title">
+                <h2>Portfolio</h2>
             </div>
+            <div className="cards-wrapper">
+                <div className="card">
+                    <div className="pic">
+                        <img src={portfolioPic01} alt="Project Al Khat Alaraby" />
+                    </div>
+                    <div className="text">
+                        <h3>Al Khat Alaraby</h3>
+                        <h4>Mobile App UX Research and Design</h4>
+
+                        <div className="icons">
+                            <img src={iconGithub} alt="Project Al Khat Alaraby GitHub" />
+                            <img src={iconBehance} alt="Project Al Khat Alaraby Behance" />
+                            <img src={iconMero} alt="Project Al Khat Alaraby Mero" />
+                            <img src={iconLink} alt="Project Al Khat Alaraby link" />
+                        </div>
+                    </div>
+                </div>
+                <div className="arrows">
+                    <img src={arrowLeft} className="arrow arrow-left" alt="arrow left scroll" />
+                    <img src={arrowRight} className="arrow arrow-right" alt="arrow right scroll" />
+                </div>
+            </div>
+
         </div>
+
     )
 }
 

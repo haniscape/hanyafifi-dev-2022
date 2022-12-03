@@ -8,21 +8,75 @@
   flex-direction: column;
 }
 
-.work .title {
-  height: 4rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.work .title h2 {
+  font-size: 3.75rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #2ec4b6;
+  background: linear-gradient(to left, #2ec4b6 0%, #ffde01 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
 }
 
-.work .title h2 {
-  font-size: 2.5rem;
+.work .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20rem;
+  width: 100%;
+}
+
+.work .wrapper .work-text {
+  padding: 0 3rem;
+  width: 60%;
+}
+
+.work .wrapper .work-text h3.title {
+  font-size: calc(0.2rem + 4vw);
   font-weight: 700;
   text-transform: uppercase;
   background: linear-gradient(to left, #ffde01 0%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 1.5rem;
+}
+
+.work .wrapper .work-text h5.subtitle {
+  font-size: calc(0.1rem + 2vw);
+  font-weight: 600;
+  margin: 1.5rem;
+  color: #2ec4b6;
+  line-height: 1.3;
+}
+
+.work .wrapper .work-text span.i-can {
+  display: block;
+  font-size: calc(0.35rem + 1.35vw);
+  font-weight: 300;
+  margin: 1.5rem;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.work .wrapper .work-canvas {
+  width: 40%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.work .wrapper .work-canvas .stack-icons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work .wrapper .work-canvas .stack-icons .icon {
+  max-width: 90%;
 }
 
 .work .arrows {
@@ -34,7 +88,7 @@
 }
 
 .work .arrows .arrow {
-  width: 2.25rem;
-  height: 2.25rem;
-  margin: 3rem 0.5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: 1.5rem 0.5rem 3rem;
 }

@@ -52,7 +52,7 @@
   width: fit-content;
 }
 
-.hero .canvas {
+.hero .hero-canvas {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -62,11 +62,11 @@
   max-width: 40vw;
 }
 
-.hero .canvas .hero-pic {
+.hero .hero-canvas .hero-pic {
   width: calc(7.5rem + 7.5vw);
 }
 
-.hero .canvas .stack-icons {
+.hero .hero-canvas .stack-icons {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -74,26 +74,26 @@
   width: 5rem;
 }
 
-.hero .canvas .stack-icons .icon {
+.hero .hero-canvas .hero-icons .icon {
   display: block;
   margin-top: 1rem;
   margin-bottom: 1rem;
   cursor: pointer;
 }
 
-.hero .canvas .stack-icons .icon.react {
+.hero .hero-canvas .hero-icons .icon.react {
   margin-left: 2.75rem;
   width: calc(0.5rem + 5vw);
   height: calc(0.5rem + 5vw);
 }
 
-.hero .canvas .stack-icons .icon.figma {
+.hero .hero-canvas .hero-icons .icon.figma {
   margin-left: 0;
   width: calc(0.75em + 6vw);
   height: calc(0.75rem + 6vw);
 }
 
-.hero .canvas .stack-icons .icon.css {
+.hero .hero-canvas .hero-icons .icon.css {
   margin-left: 1rem;
   width: calc(0.5rem + 5vw);
   height: calc(0.5rem + 5vw);
@@ -109,7 +109,7 @@
     align-items: flex-start;
     margin-top: 2rem;
   }
-  .hero .canvas .stack-icons {
+  .hero .canvas .hero-icons {
     width: 4rem;
   }
 }
@@ -138,7 +138,7 @@
     margin-bottom: 1rem;
   }
 
-  .hero .canvas {
+  .hero .hero-canvas {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -148,18 +148,18 @@
     max-width: 90%;
     width: 90%;
   }
-  .hero .canvas .hero-pic {
+  .hero .hero-canvas .hero-pic {
     width: calc(5rem + 5vw);
   }
 
-  .hero .canvas .stack-icons {
+  .hero .hero-canvas .hero-icons {
     width: 50%;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
   }
 
-  .hero .canvas .stack-icons .icon.react {
+  .hero .hero-canvas .hero-icons .icon.react {
     margin-left: 1rem;
     width: calc(0.5rem + 7vw);
     height: calc(0.5rem + 7vw);

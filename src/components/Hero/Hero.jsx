@@ -30,10 +30,10 @@ const Hero = () => {
                         Mission: create <span className='underline-a ' style={{ backgroundImage: `url(${underlineA})` }}>beautiful</span>  and <span className='underline-b ' style={{ backgroundImage: `url(${underlineB})` }}>user-friendly</span> web apps
                     </span>
                 </div>
-                <div className='canvas'>
+                <div className='hero-canvas'>
                     <img src={hero} className="hero-pic" alt="Hany Afifi hero illustration" />
 
-                    <div className='stack-icons'>
+                    <div className='hero-icons'>
                         <img src={iconReact} className="icon react" alt="React" />
                         <img src={iconFigma} className="icon figma" alt="Figma" />
                         <img src={iconCss} className="icon css" alt="CSS" />
