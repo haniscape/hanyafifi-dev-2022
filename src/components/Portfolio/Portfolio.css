@@ -35,19 +35,20 @@
 .portfolio .cards-wrapper .card {
   display: flex;
   justify-content: space-between;
-  height: 17rem;
+  height: 20rem;
 }
 
 .portfolio .cards-wrapper .card .pic {
-  height: 100%;
+  height: calc(10rem + 10vw);
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  background: linear-gradient(to right, #000000 0%, #0b2ab3 100%);
+  align-items: center;
+  background: linear-gradient(to top right, #03012b 10%, #061d82 100%);
 }
 
 .portfolio .cards-wrapper .card .pic img {
-  height: 100%;
+  height: 98%;
   width: max-content;
 }
 
@@ -80,17 +81,16 @@
 }
 
 .portfolio .cards-wrapper .card .text .icons {
-  height: 2.2rem;
+  height: 2rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  color: #fede00;
 }
 
 .portfolio .cards-wrapper .card .text .icons img {
-  width: 2.25rem;
-  height: 1.75rem;
+  width: 2rem;
+  height: 2rem;
   margin-right: 1rem;
   cursor: pointer;
 }
