@@ -25,6 +25,8 @@
   align-items: center;
   height: 20rem;
   width: 100%;
+  margin: 1rem 0;
+  background: linear-gradient(to top right, #03012b 10%, #0e0d34 100%);
 }
 
 .work .wrapper .work-text {
@@ -61,7 +63,7 @@
 
 .work .wrapper .work-canvas {
   width: 40%;
-  height: 100%;
+  height: calc(100% + 6px);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -91,4 +93,5 @@
   width: 1.75rem;
   height: 1.75rem;
   margin: 1.5rem 0.5rem 3rem;
+  cursor: pointer;
 }
