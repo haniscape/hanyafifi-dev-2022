@@ -25,7 +25,7 @@ const Hero = () => {
 
                         Hany Afifi
                     </h1>
-                    <p>Lead<span>UI/UX</span>Developer</p>
+                    <p>Lead UI/UX Developer</p>
                     <span>
                         Mission: create <span className='underline-a ' style={{ backgroundImage: `url(${underlineA})` }}>beautiful</span>  and <span className='underline-b ' style={{ backgroundImage: `url(${underlineB})` }}>user-friendly</span> web apps
                     </span>
