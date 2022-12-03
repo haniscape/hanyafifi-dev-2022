@@ -6,6 +6,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 .portfolio .title {
@@ -155,5 +156,14 @@
     margin: 0.5rem;
     width: 1.75rem;
     height: 1.75rem;
+  }
+  .portfolio .arrows {
+    height: 5rem;
+    justify-content: space-between;
+    position: absolute;
+    bottom: calc(7rem + 27vw);
+  }
+  .portfolio .arrows .arrow {
+    margin: 0.5rem;
   }
 }

@@ -118,7 +118,7 @@
   }
 
   .hero-text {
-    margin: 2rem;
+    margin: 0.5rem 2rem 3rem;
     max-width: 80%;
     width: 80%;
   }
@@ -140,7 +140,7 @@
     align-items: flex-end;
     flex-direction: column-reverse;
     height: 100%;
-    margin: 0;
+    margin: 1.5rem 0 0;
     max-width: 90%;
     width: 90%;
   }
