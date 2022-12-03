@@ -42,21 +42,22 @@
 
 .portfolio .cards-wrapper .card .pic {
   height: calc(10rem + 10vw);
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-left: 4rem;
 }
 
 .portfolio .cards-wrapper .card .pic img {
   height: 98%;
   width: max-content;
-  border-left: 10rem solid #ffde01;
+  border-radius: 1rem;
 }
 
 .portfolio .cards-wrapper .card .text {
   max-height: 100%;
-  width: 50%;
+  width: 53%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -65,7 +66,7 @@
 }
 
 .portfolio .cards-wrapper .card .text h3 {
-  font-size: calc(0.2rem + 4vw);
+  font-size: calc(1.5rem + 1.5vw);
   font-weight: 700;
   text-transform: uppercase;
   background: linear-gradient(to right, #ffde01 0%, #ffffff 80%);
@@ -113,15 +114,46 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .portfolio .title h2 {
+    font-size: calc(1.5rem + 2.5vw);
+  }
   .portfolio .cards-wrapper .card {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .portfolio .cards-wrapper .card .pic {
     width: 100%;
+    justify-content: center;
+    height: calc(5rem + 30vw);
+    margin: 0;
   }
   .portfolio .cards-wrapper .card .text {
     max-width: 100%;
     padding: 1rem;
     min-width: 80%;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  .portfolio .cards-wrapper .card .text h3 {
+    font-size: calc(1.25rem + 1.25vw);
+    line-height: 1.25;
+  }
+  .portfolio .cards-wrapper .card .text h4 {
+    font-size: calc(0.35rem + 2.35vw);
+    margin: 0.5rem 1.5rem 1.5rem;
+    line-height: 1.4;
+  }
+  .portfolio .cards-wrapper .card .text .icons {
+    height: 2rem;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .portfolio .cards-wrapper .card .text .icons img {
+    margin: 0.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
   }
 }
