@@ -153,6 +153,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
+    display: flex;
   }
 
   .hero .hero-canvas .hero-icons .icon.react {
