@@ -18,8 +18,8 @@ const Work = () => {
             <div className="wrapper">
                 <div className="work-text">
                     <h3 className="title">UI & Prototyping</h3>
-                    <h5 className="subtitle">Low Fidelity and High Fidelity designs for Wireframes, Prototypes and Mockups</h5>
-                    <span className="i-can">My tools include Figma, Adobe XD, miro and whimsical</span>
+                    <h5 className="subtitle">Low fidelity and high fidelity designs for Wireframes, Prototypes and Mockups</h5>
+                    <span className="i-can">My tools are Figma, Adobe XD, miro and whimsical</span>
                 </div>
                 <div className="work-canvas" style={{
                     backgroundImage: `url(${workPaper})`
