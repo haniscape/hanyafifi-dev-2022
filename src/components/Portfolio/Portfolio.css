@@ -97,7 +97,7 @@
   cursor: pointer;
 }
 
-.portfolio .cards-wrapper .arrows {
+.portfolio .arrows {
   width: 100%;
   height: 3rem;
   display: flex;
@@ -105,7 +105,7 @@
   align-content: center;
 }
 
-.portfolio .cards-wrapper .arrows .arrow {
+.portfolio .arrows .arrow {
   width: 1.75rem;
   height: 1.75rem;
   margin: 1.5rem 0.5rem 3rem;
