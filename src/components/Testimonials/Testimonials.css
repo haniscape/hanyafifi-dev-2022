@@ -24,19 +24,45 @@
 }
 
 .testimonials .wrapper .testimonials-slider {
-  width: 85%;
   height: max-content;
-  min-height: 16rem;
+  min-height: 15rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+  grid-gap: 1rem;
   align-items: stretch;
-  place-items: center;
+  justify-content: center;
+  margin: 3rem auto;
 }
 
 .testimonials .wrapper .testimonials-slider .card {
-  border: 1px solid gray;
+  height: 4rem;
+  width: 50%;
+  min-width: 155px;
+  border: 1px solid #c5c3c3;
+  border-top: 5px solid #c5c3c3;
+  border-bottom: 5px solid #c5c3c3;
   border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.testimonials .wrapper .testimonials-slider .card img.employer-logo {
+  width: 6rem;
+  max-height: 1.5rem;
+}
+
+.testimonials .wrapper .testimonials-slider .card.active {
+  height: 20rem;
+  min-width: 230px;
+  border: 1px solid #ffde01;
+  border-top: 24px solid #ffde01;
+  border-bottom: 24px solid #ffde01;
+  border-radius: 0.5rem;
+  position: relative;
 }
 
 .testimonials .arrows {

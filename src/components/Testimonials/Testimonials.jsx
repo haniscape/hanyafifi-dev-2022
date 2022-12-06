@@ -18,28 +18,31 @@ const Testimonials = () => {
                 <h2>Testimonials</h2>
             </div>
 
-            <div className="wrapper">
-                <div className="testimonials-slider">
-                    <div className="card greyed">
-                        <img src={logoHuman} className="logo" alt="Human Interactive" />
+            <div className="container">
+                <div className="wrapper">
+                    <div className="testimonials-slider">
+                        <div className="card">
+                            <img src={logoHuman} className="employer-logo" alt="Human Interactive" />
+                        </div>
+                        <div className="card active">
+                            <div className="testimonial-employer"></div>
+                            <img src={logoBordersNone} className="employer-logo" alt="Borders None" />
+                            <div className="testimonial-colleague"></div>
+                        </div>
+                        <div className="card">
+                            <img src={logoPerpetuum} className="employer-logo" alt="Perpetuum Mobile" />
+                        </div>
+                        <div className="card">
+                            <img src={logoCloudypedia} className="employer-logo" alt="Cloudypedia" />
+                        </div>
                     </div>
-                    <div className="card active">
-                        <img src={logoBordersNone} className="logo" alt="Borders None" />
-                    </div>
-                    <div className="card greyed">
-                        <img src={logoPerpetuum} className="logo" alt="Perpetuum Mobile" />
-                    </div>
-                    <div className="card greyed">
-                        <img src={logoCloudypedia} className="logo" alt="Cloudypedia" />
+                    <div className="arrows">
+                        <img src={arrowLeft} className="arrow arrow-left" alt="arrow left scroll" />
+                        <img src={arrowRight} className="arrow arrow-right" alt="arrow right scroll" />
                     </div>
                 </div>
 
 
-
-                <div className="arrows">
-                    <img src={arrowLeft} className="arrow arrow-left" alt="arrow left scroll" />
-                    <img src={arrowRight} className="arrow arrow-right" alt="arrow right scroll" />
-                </div>
             </div>
         </div>
     )
