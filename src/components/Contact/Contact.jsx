@@ -1,5 +1,5 @@
 import React from 'react'
-import './Testimonials.css'
+import './Contact.css'
 import ContactForm from './components/ContactForm'
 import contactPeople from "../../img/contact-people.svg";
 
