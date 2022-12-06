@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero"
 import Portfolio from "./components/Portfolio/Portfolio"
 import Work from "./components/Work/Work"
 import Testimonials from "./components/Testimonials/Testimonials"
+import Contact from "./components/Contact/Contact"
 
 
 

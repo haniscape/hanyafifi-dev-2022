@@ -1,7 +1,6 @@
 import React from 'react'
 import './Testimonials.css'
 import ContactForm from './components/ContactForm'
-
 import contactPeople from "../../img/contact-people.svg";
 
 
@@ -15,11 +14,9 @@ const Contact = () => {
 
             <div className="container">
                 <div className="wrapper">
-
+                <img src={contactPeople} alt="contact me people" />
                 <ContactForm />
                 </div>
-
-
             </div>
         </div>
     )
