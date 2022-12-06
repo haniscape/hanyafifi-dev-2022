@@ -1,0 +1,35 @@
+.contact {
+  width: 100%;
+  min-height: calc(100vh - 200px);
+  padding: 3rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .title h2 {
+  font-size: 3.75rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #2ec4b6;
+  background: linear-gradient(to left, #2ec4b6 0%, #ffde01 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.contact .wrapper {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .contact .title h2 {
+    font-size: calc(1.5rem + 2.5vw);
+  }
+  .contact .wrapper .contact-slider {
+    grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
+    grid-gap: .5rem;
+}
+}

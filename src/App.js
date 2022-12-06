@@ -6,6 +6,7 @@ import Work from "./components/Work/Work"
 import Testimonials from "./components/Testimonials/Testimonials"
 
 
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
    <Portfolio />
    <Work />
    <Testimonials />
+   <Contact />
 
     </div>
   );
