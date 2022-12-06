@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import ContactForm from './components/ContactForm'
+import ContactForm from './ContactForm'
 import contactPeople from "../../img/contact-people.svg";
 
 
