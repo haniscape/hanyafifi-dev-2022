@@ -24,16 +24,16 @@ const Testimonials = () => {
                         <div className="card">
                             <img src={logoHuman} className="employer-logo" alt="Human Interactive" />
                         </div>
-                        <div className="card active">
-                            <div className="testimonial-employer">Perpetuum Mobile</div>
+                        <div className="card">
                             <img src={logoBordersNone} className="employer-logo" alt="Borders None" />
+                        </div>
+                        <div className="card active">
+                        <div className="testimonial-employer">Perpetuum Mobile</div>
+                            <img src={logoPerpetuum} className="employer-logo" alt="Perpetuum Mobile" />
                             <div className="testimonial-colleague">
                                 <div className="name">Blerim Sela</div>
                                 <div className="position">CEO</div>
                             </div>
-                        </div>
-                        <div className="card">
-                            <img src={logoPerpetuum} className="employer-logo" alt="Perpetuum Mobile" />
                         </div>
                         <div className="card">
                             <img src={logoCloudypedia} className="employer-logo" alt="Cloudypedia" />
