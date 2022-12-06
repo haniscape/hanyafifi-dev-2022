@@ -58,11 +58,56 @@
 .testimonials .wrapper .testimonials-slider .card.active {
   height: 20rem;
   min-width: 230px;
-  border: 1px solid #ffde01;
+  border: none;
   border-top: 24px solid #ffde01;
   border-bottom: 24px solid #ffde01;
   border-radius: 0.5rem;
   position: relative;
+  background: linear-gradient(to bottom left, #061872 10%, #03012c 75%);
+}
+
+.testimonials .wrapper .testimonials-slider .card.active .testimonial-employer {
+  color: #2421a6;
+  position: absolute;
+  top: -1rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.testimonials
+  .wrapper
+  .testimonials-slider
+  .card.active
+  .testimonial-colleague {
+  color: #2421a6;
+  position: absolute;
+  bottom: -1.25rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 0.5rem;
+}
+
+.testimonials
+  .wrapper
+  .testimonials-slider
+  .card.active
+  .testimonial-colleague
+  .name {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.testimonials
+  .wrapper
+  .testimonials-slider
+  .card.active
+  .testimonial-colleague
+  .position {
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .testimonials .arrows {

@@ -25,9 +25,12 @@ const Testimonials = () => {
                             <img src={logoHuman} className="employer-logo" alt="Human Interactive" />
                         </div>
                         <div className="card active">
-                            <div className="testimonial-employer"></div>
+                            <div className="testimonial-employer">Perpetuum Mobile</div>
                             <img src={logoBordersNone} className="employer-logo" alt="Borders None" />
-                            <div className="testimonial-colleague"></div>
+                            <div className="testimonial-colleague">
+                                <div className="name">Blerim Sela</div>
+                                <div className="position">CEO</div>
+                            </div>
                         </div>
                         <div className="card">
                             <img src={logoPerpetuum} className="employer-logo" alt="Perpetuum Mobile" />
