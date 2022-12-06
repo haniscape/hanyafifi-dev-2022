@@ -14,8 +14,10 @@ const Contact = () => {
 
             <div className="container">
                 <div className="wrapper">
-                <img src={contactPeople} alt="contact me people" />
-                <ContactForm />
+                    <div className="canvas">
+                        <img src={contactPeople} alt="contact me people" />
+                    </div>
+                    <ContactForm />
                 </div>
             </div>
         </div>
