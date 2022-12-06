@@ -38,6 +38,7 @@
   height: 4rem;
   width: 50%;
   min-width: 155px;
+  max-width: 160px;
   border: 1px solid #c5c3c3;
   border-top: 5px solid #c5c3c3;
   border-bottom: 5px solid #c5c3c3;
