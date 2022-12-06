@@ -30,6 +30,7 @@ const Testimonials = () => {
                         <div className="card active">
                         <div className="testimonial-employer">Perpetuum Mobile</div>
                             <img src={logoPerpetuum} className="employer-logo" alt="Perpetuum Mobile" />
+                            <p className="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.consectetur adipiscing elit, sed do eiusmod.</p>
                             <div className="testimonial-colleague">
                                 <div className="name">Blerim Sela</div>
                                 <div className="position">CEO</div>
