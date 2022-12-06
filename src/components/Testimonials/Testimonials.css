@@ -27,8 +27,8 @@
   height: max-content;
   min-height: 15rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill,minmax(20%,22%));
+  grid-gap: 0;
   align-items: stretch;
   justify-content: center;
   margin: 3rem auto;
