@@ -130,4 +130,8 @@
   .testimonials .title h2 {
     font-size: calc(1.5rem + 2.5vw);
   }
+  .testimonials .wrapper .testimonials-slider {
+    grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
+    grid-gap: .5rem;
+}
 }
