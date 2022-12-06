@@ -28,7 +28,7 @@
   min-height: 15rem;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(20%,22%));
-  grid-gap: 0;
+  grid-gap: 0.5rem;
   align-items: stretch;
   justify-content: center;
   margin: 3rem auto;
