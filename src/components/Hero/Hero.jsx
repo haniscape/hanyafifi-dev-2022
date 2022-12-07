@@ -31,7 +31,7 @@ const Hero = () => {
                     </span>
                 </div>
                 <div className='hero-canvas'>
-                    <img src={hero} className="hero-pic" alt="Hany Afifi hero illustration" />
+                    <img src={hero} className="hero-pic" alt="هاني عفيفي - مهندس تطوير الويب" />
 
                     <div className='hero-icons'>
                         <img src={iconReact} className="icon react" alt="React" />
