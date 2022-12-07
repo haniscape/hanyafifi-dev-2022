@@ -20,26 +20,48 @@
 }
 
 .contact .wrapper {
-  width: 100%;
+  border: 4px solid #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  height: 20rem;
+}
+
+.contact .wrapper .canvas {
+  width: 17vw;
+  height: 100%;
+  padding: 1rem;
+  margin: 0;
+  justify-content: flex-end;
+  background-color: #ffde01;
+  position: relative;
+}
+
+.contact .wrapper .canvas img {
+  position: absolute;
+  bottom: 0;
+  right: -2rem;
+  top: unset;
+  width: 17vw;
 }
 
 .contact .wrapper .contact-form {
-  border: 4px solid #FFF;
-  border-radius: 1rem;
+  width: 60%;
+  height: 100%;
   padding: 1rem;
-  width: 100%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
-
-
-
 
 @media only screen and (max-width: 700px) {
   .contact .title h2 {
     font-size: calc(1.5rem + 2.5vw);
   }
   .contact .wrapper .contact-slider {
-    grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
-    grid-gap: .5rem;
-}
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-gap: 0.5rem;
+  }
 }
