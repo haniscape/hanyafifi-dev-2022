@@ -17,6 +17,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
+  opacity: 0.25;
+  user-select: none;
 }
 
 .work .wrapper {
@@ -26,7 +28,7 @@
   height: fit-content;
   width: 100%;
   margin: 1rem 0;
-  background: linear-gradient(to top right, #03012b 10%, #0e0d34 100%);
+  background: linear-gradient(to top right, #0c0860 -5%, #0e0d34 60%);
 }
 
 .work .wrapper .work-text {

@@ -17,6 +17,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
+  opacity: 0.25;
+  user-select: none;
 }
 
 .testimonials .wrapper {
