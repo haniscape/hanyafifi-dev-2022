@@ -26,13 +26,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
-  opacity: 0.25;
+  opacity: 0.55;
   user-select: none;
 }
 
 .portfolio .cards-wrapper {
   padding: 1rem 0;
   width: 100%;
+  background: linear-gradient(to top right, #08053e 0%, #030228 120%);
 }
 
 .portfolio .cards-wrapper .card {
@@ -40,7 +41,6 @@
   justify-content: space-between;
   align-items: center;
   height: fit-content;
-  background: linear-gradient(to top right, #03012b 10%, #0e0d34 100%);
 }
 
 .portfolio .cards-wrapper .card .pic {
@@ -102,16 +102,16 @@
 }
 
 .portfolio .arrows {
-  width: 30%;
-  height: 3rem;
+  width: 25%;
+  height: 5rem;
   display: flex;
   justify-content: space-evenly;
   align-content: center;
 }
 
 .portfolio .arrows .arrow {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
   margin: 1.5rem 0.5rem 3rem;
   cursor: pointer;
 }
