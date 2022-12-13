@@ -1,78 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
 
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="%PUBLIC_URL%/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="%PUBLIC_URL%/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="%PUBLIC_URL%/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
     <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="%PUBLIC_URL%/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
+    <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#ffc40d" />
     <meta name="theme-color" content="#ffffff" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Hany Afifi portfolio and blog" />
+    <meta name="keywords" content="Hany, Afifi, hany, afifi, هانى, عفيفى">
     <style>
-      @font-face {
-        font-family: "League Spartan Variable";
-        src: url("LeagueSpartanVariable.woff2") format("woff2-variations");
-        font-weight: 100 200 300 400 500 600 700 800 900;
-      }
-      * {
-        font-family: "League Spartan";
-        font-weight: 400;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      .container {
-        max-width: 1200px;
-        width: 100%;
-      }
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-Regular.woff') format('woff'),
+                url('fonts/LeagueSpartan-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
 
-      body {
-        margin: 0;
-        background-color: #020128;
-        color: #fff;
-        scrollbar-color: #1b1b3d #212124;
-      }
-      body::-webkit-scrollbar {
-        width: 11px;
-        background-color: #030128;
-      }
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-Black.woff') format('woff'),
+                url('fonts/LeagueSpartan-Black.ttf') format('truetype');
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
 
-      body::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 1px -5px 6px #030128;
-        border-radius: 10px;
-        background-color: #1b1b3d;
-      }
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-Bold.woff') format('woff'),
+                url('fonts/LeagueSpartan-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
 
-      body::-webkit-scrollbar-thumb {
-        border-radius: 10px;
-        -webkit-box-shadow: inset 0 0 6px rgb(104 76 76 / 30%);
-        background-color: #212124;
-      }
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-Thin.woff') format('woff'),
+                url('fonts/LeagueSpartan-Thin.ttf') format('truetype');
+            font-weight: 100;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-Medium.woff') format('woff'),
+                url('fonts/LeagueSpartan-Medium.ttf') format('truetype');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-ExtraBold.woff') format('woff'),
+                url('fonts/LeagueSpartan-ExtraBold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-Light.woff') format('woff'),
+                url('fonts/LeagueSpartan-Light.ttf') format('truetype');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-ExtraLight.woff') format('woff'),
+                url('fonts/LeagueSpartan-ExtraLight.ttf') format('truetype');
+            font-weight: 200;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'League Spartan';
+            src: url('fonts/LeagueSpartan-SemiBold.woff') format('woff'),
+                url('fonts/LeagueSpartan-SemiBold.ttf') format('truetype');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+
+
+
+
+        * {
+            font-family: 'League Spartan', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        body {
+            margin: 0;
+            background-color: #020128;
+            color: #fff;
+            scrollbar-color: #1b1b3d #212124;
+        }
+
+        body::-webkit-scrollbar {
+            width: 11px;
+            background-color: #030128;
+        }
+
+        body::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 1px -5px 6px #030128;
+            border-radius: 10px;
+            background-color: #1b1b3d;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgb(104 76 76 / 30%);
+            background-color: #212124;
+        }
     </style>
 
     <!--
@@ -90,8 +155,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Hany Afifi Portfolio and Blog</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <noscript>Web Development Engineer Hany Afifi</noscript>
     <div id="root"></div>
     <!--
@@ -104,5 +170,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>
