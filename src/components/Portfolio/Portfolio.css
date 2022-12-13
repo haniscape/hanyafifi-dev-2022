@@ -18,16 +18,17 @@
 }
 
 .portfolio .title h2 {
-  font-size: 3.75rem;
-  font-weight: 100;
+  font-size: 18vw;
+  font-weight: 900;
   text-transform: uppercase;
-  color: #2ec4b6;
-  background: linear-gradient(to left, #2ec4b6 0%, #ffde01 81%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #0700a3;
   margin: 0;
-  opacity: 0.55;
+  opacity: 0.4;
+  -webkit-user-select: none;
   user-select: none;
+  position: absolute;
+  bottom: 0;
+  left: calc(50vw - 47vw);
 }
 
 .portfolio .cards-wrapper {
