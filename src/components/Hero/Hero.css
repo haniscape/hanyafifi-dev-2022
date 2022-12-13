@@ -39,12 +39,13 @@
 
 .hero-text span.underline-a,
 .hero-text span.underline-b {
-  background-position: left calc(1rem + 1.5vw);
+  background-position: left calc(1rem + 1vw);
   background-repeat: no-repeat;
   background-size: 100% 40%;
-  height: calc(1rem + 4vw);
+  height: calc(1.1rem + 3vw);
   display: inline-flex;
   min-width: max-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
