@@ -17,10 +17,7 @@ const Portfolio = () => {
             <div className="title">
                 <h2>Portfolio</h2>
             </div>
-            <div className="arrows">
-                <img src={arrowLeft} className="arrow arrow-left" alt="arrow left scroll" />
-                <img src={arrowRight} className="arrow arrow-right" alt="arrow right scroll" />
-            </div>
+
             <div className="cards-wrapper">
                 <div className="card">
                     <div className="pic">
@@ -40,7 +37,10 @@ const Portfolio = () => {
                 </div>
             </div>
 
-
+            <div className="arrows">
+                <img src={arrowLeft} className="arrow arrow-left" alt="arrow left scroll" />
+                <img src={arrowRight} className="arrow arrow-right" alt="arrow right scroll" />
+            </div>
 
         </div>
 

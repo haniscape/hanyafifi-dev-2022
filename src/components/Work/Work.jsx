@@ -29,8 +29,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-
-
+            
             <div className="arrows">
                 <img src={arrowLeft} className="arrow arrow-left" alt="arrow left scroll" />
                 <img src={arrowRight} className="arrow arrow-right" alt="arrow right scroll" />
