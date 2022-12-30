@@ -18,7 +18,7 @@
 }
 
 .portfolio .title h2 {
-  font-size: 18vw;
+  font-size: calc(2rem + 10vw);
   width: 100%;
   font-weight: 900;
   text-transform: uppercase;
@@ -118,6 +118,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .portfolio .title h2 {
+    font-size: calc(1rem + 9vw);
+  }
   .portfolio .cards-wrapper .card {
     flex-direction: column;
     justify-content: center;

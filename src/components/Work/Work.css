@@ -17,7 +17,7 @@
   align-items: center;
 }
 .work .title h2 {
-  font-size: 18vw;
+  font-size: calc(2rem + 10vw);
   font-weight: 900;
   width: 100%;
   text-transform: uppercase;
@@ -108,7 +108,9 @@
 }
 
 @media only screen and (max-width: 700px) {
-
+  .work .title h2 {
+    font-size: calc(1rem + 9vw);
+  }
   .work .wrapper {
     flex-direction: column;
   }
