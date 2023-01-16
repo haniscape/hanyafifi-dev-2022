@@ -20,19 +20,18 @@ const Portfolio = () => {
 
             <div className="cards-wrapper">
                 <div className="card">
+                    <div className="icons">
+                        <img src={iconGithub} alt="Project Al Khat Alaraby GitHub" />
+                        <img src={iconBehance} alt="Project Al Khat Alaraby Behance" />
+                        <img src={iconMero} alt="Project Al Khat Alaraby Mero" />
+                        <img src={iconLink} alt="Project Al Khat Alaraby link" />
+                    </div>
                     <div className="pic">
                         <img src={portfolioPic01} alt="Project Al Khat Alaraby" />
                     </div>
                     <div className="text">
                         <h3>Al Khat Alaraby</h3>
                         <h4>Mobile App UX Research and Design</h4>
-
-                        <div className="icons">
-                            <img src={iconGithub} alt="Project Al Khat Alaraby GitHub" />
-                            <img src={iconBehance} alt="Project Al Khat Alaraby Behance" />
-                            <img src={iconMero} alt="Project Al Khat Alaraby Mero" />
-                            <img src={iconLink} alt="Project Al Khat Alaraby link" />
-                        </div>
                     </div>
                 </div>
             </div>
